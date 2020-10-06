@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/wojciechszlosek/Desktop/ASD/Insertion Sort/InsertionSort.cpp
+iostream
+-
+cstdlib
+-
+InsertionSort.h
+/Users/wojciechszlosek/Desktop/ASD/Insertion Sort/InsertionSort.h
+
+/Users/wojciechszlosek/Desktop/ASD/Insertion Sort/InsertionSort.h
+
+/Users/wojciechszlosek/Desktop/ASD/Insertion Sort/main.cpp
+iostream
+-
+InsertionSort.h
+/Users/wojciechszlosek/Desktop/ASD/Insertion Sort/InsertionSort.h
+

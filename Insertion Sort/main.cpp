@@ -6,11 +6,16 @@ int main() {
     srand(time(NULL));
     InsertionSort q = InsertionSort();
 
-    q.filling();
+    // print array
     q.print();
+
+    // (array is sorted?)
     q.test();
 
+    // insertion sort
     q.sort();
+
+    // print and test (again)
     q.print();
     q.test();
 

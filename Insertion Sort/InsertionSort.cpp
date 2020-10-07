@@ -6,16 +6,13 @@
 #include <cstdlib> // do funkcji rand() - losowanie liczb do testow
 #include "InsertionSort.h"
 
-InsertionSort::InsertionSort() {
+InsertionSort::InsertionSort() { // random elements ( rand() )
 
-    /* std::cout << "Liczba elementow tablicy: ";
-    std::cin >> n;
-    arr = new int[n];
-    std::cout << std::endl;
+    n = rand()%30 + 1;  // size of arr in the range 1 to 30
 
-    std::cout << "Elementy tablicy: ";
     for(int i=0;i<n;i++)
-        std::cin >> arr[i]; */ // wersja z wpisywaniem uzytkownika
+        arr[i] = rand()%1000 + 1;   // each element in the range 1 to 1000
+
 }
 
 void InsertionSort::sort() {
@@ -55,18 +52,8 @@ bool InsertionSort::verification() {
     return true;
 }
 
-void InsertionSort::filling(){ // random elements in array
-
-    n = rand()%30 + 1;
-
-    for(int i=0;i<n;i++){
-
-        arr[i] = rand()%1000 + 1;
-    }
-}
 
 void InsertionSort::test() {
-
 
     if(verification())
         std::cout << "TEST ZALICZONY POMYSLNIE" << std::endl;

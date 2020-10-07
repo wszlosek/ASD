@@ -18,6 +18,7 @@ public:
     InsertionSort();
     void sort();
     void print();
+    void fill();
     void test();
     bool verification();
     ~InsertionSort();

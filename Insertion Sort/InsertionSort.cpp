@@ -8,11 +8,7 @@
 
 InsertionSort::InsertionSort() { // random elements ( rand() )
 
-    n = rand()%30 + 1;  // size of arr in the range 1 to 30
-
-    for(int i=0;i<n;i++)
-        arr[i] = rand()%1000 + 1;   // each element in the range 1 to 1000
-
+    fill();
 }
 
 void InsertionSort::sort() {
@@ -50,6 +46,14 @@ bool InsertionSort::verification() {
     }
 
     return true;
+}
+
+void InsertionSort::fill(){
+
+    n = rand()%30 + 1;  // size of arr in the range 1 to 30
+
+    for(int i=0;i<n;i++)
+        arr[i] = rand()%1000 + 1;   // each element in the range 1 to 1000
 }
 
 

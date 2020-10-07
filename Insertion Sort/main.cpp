@@ -12,6 +12,9 @@ int main() {
     // (array is sorted?)
     q.test();
 
+    q.fill();   // new random elements
+    q.print();
+
     // insertion sort
     q.sort();
 

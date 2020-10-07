@@ -3,7 +3,7 @@
 //
 
 #include <iostream>
-#include <cstdlib> // do funkcji rand() - losowanie liczb do testow
+#include <cstdlib> // rand()
 #include "InsertionSort.h"
 
 InsertionSort::InsertionSort() { // random elements ( rand() )

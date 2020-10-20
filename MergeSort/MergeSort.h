@@ -7,7 +7,7 @@ public:
 
     int *arr = new int[0];
     int n = 0;
-    
+
     MergeSort();
     void sort(int q, int w);
     void print();

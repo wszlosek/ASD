@@ -13,17 +13,17 @@ MergeSort::MergeSort() { // random elements ( rand() )
 
 void MergeSort::sort(int p, int r){
 
-    if (p < r){
+    if(p<r){
         int q = (p+r) / 2;
 
         MergeSort::sort(p, q);
         MergeSort::sort(q+1, r);
 
-
+        // scalenie:
         int n1 = q-p+1, n2 = r-q;
         int left[n1], right[n2];
 
-        for(int i = 0; i<n1; i++)
+        for(int i = 0; i<n1; i++)   // podzial na lewa i prawa strone tablicy
             left[i] = arr[p+i];
         for(int j = 0; j<n2; j++)
             right[j] = arr[q+1+j];
@@ -31,8 +31,8 @@ void MergeSort::sort(int p, int r){
         int i1 = 0, i2 = 0;
         int k = p;
 
-        while (i1 < n1 && i2 < n2){
-            if (left[i1]<=right[i2]){
+        while(i1<n1 && i2<n2){
+            if(left[i1]<=right[i2]){
                 arr[k] = left[i1];
                 i1++;
             }
@@ -43,14 +43,14 @@ void MergeSort::sort(int p, int r){
             k++;
         }
 
-        while (i1 < n1){
+        while(i1 < n1){
 
             arr[k] = left[i1];
             i1++;
             k++;
         }
 
-        while (i2 < n2){
+        while(i2 < n2){
 
             arr[k] = right[i2];
             i2++;
@@ -79,7 +79,7 @@ bool MergeSort::verification() {
 
 void MergeSort::fill(){
 
-    n = rand()%30 + 1;  // size of arr in the range 1 to 30
+    n = 15; // len(arr) = 15
 
     for(int i=0;i<n;i++)
         arr[i] = rand()%1000 + 1;   // each element in the range 1 to 1000

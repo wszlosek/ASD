@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/wojciechszlosek/Desktop/ASD/MergeSort/MergeSort.cpp">
+			<Option target="MergeSort"/>
+		</Unit>
+		<Unit filename="/Users/wojciechszlosek/Desktop/ASD/MergeSort/MergeSort.h">
+			<Option target="MergeSort"/>
+		</Unit>
 		<Unit filename="/Users/wojciechszlosek/Desktop/ASD/MergeSort/main.cpp">
 			<Option target="MergeSort"/>
 		</Unit>

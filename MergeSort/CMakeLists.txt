@@ -3,4 +3,4 @@ project(MergeSort)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(MergeSort main.cpp)
+add_executable(MergeSort main.cpp MergeSort.cpp MergeSort.h)

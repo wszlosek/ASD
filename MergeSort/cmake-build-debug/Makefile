@@ -143,6 +143,33 @@ MergeSort/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MergeSort.dir/build.make CMakeFiles/MergeSort.dir/build
 .PHONY : MergeSort/fast
 
+MergeSort.o: MergeSort.cpp.o
+
+.PHONY : MergeSort.o
+
+# target to build an object file
+MergeSort.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MergeSort.dir/build.make CMakeFiles/MergeSort.dir/MergeSort.cpp.o
+.PHONY : MergeSort.cpp.o
+
+MergeSort.i: MergeSort.cpp.i
+
+.PHONY : MergeSort.i
+
+# target to preprocess a source file
+MergeSort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MergeSort.dir/build.make CMakeFiles/MergeSort.dir/MergeSort.cpp.i
+.PHONY : MergeSort.cpp.i
+
+MergeSort.s: MergeSort.cpp.s
+
+.PHONY : MergeSort.s
+
+# target to generate assembly for a file
+MergeSort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MergeSort.dir/build.make CMakeFiles/MergeSort.dir/MergeSort.cpp.s
+.PHONY : MergeSort.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -179,6 +206,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... MergeSort"
+	@echo "... MergeSort.o"
+	@echo "... MergeSort.i"
+	@echo "... MergeSort.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

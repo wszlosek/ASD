@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/MergeSort.dir/MergeSort.cpp.o"
   "CMakeFiles/MergeSort.dir/main.cpp.o"
   "MergeSort"
   "MergeSort.pdb"

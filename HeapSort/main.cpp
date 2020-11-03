@@ -1,16 +1,15 @@
 #include <iostream>
-#include "MergeSort.h"
+#include "Kopiec.h"
 
 int main() {
 
     srand(time(NULL));
-    MergeSort q = MergeSort();
+    Kopiec q = Kopiec();
 
 
-    q.fill();   // new random elements
     q.print();
-    // merge sort
-    q.sort(0,q.n-1);
+    // heap sort
+    q.sort();
 
     // print and test (again)
     q.print();

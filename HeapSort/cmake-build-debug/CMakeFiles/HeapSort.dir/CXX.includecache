@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/wojciechszlosek/Desktop/ASD/HeapSort/Kopiec.cpp
+Kopiec.h
+/Users/wojciechszlosek/Desktop/ASD/HeapSort/Kopiec.h
+iostream
+-
+cstdlib
+-
+
+/Users/wojciechszlosek/Desktop/ASD/HeapSort/Kopiec.h
+

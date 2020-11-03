@@ -2,22 +2,22 @@
 // Created by Wojciech Szlosek on 20/10/2020.
 //
 
-#include "Sortowania.h"
+#include "MergeSort.h"
 #include <iostream>
 #include <cstdlib> // rand()
 
-Sortowania::Sortowania() { // random elements ( rand() )
+MergeSort::MergeSort() { // random elements ( rand() )
 
     fill();
 }
 
-void Sortowania::Mergesort(int p, int r){
+void MergeSort::sort(int p, int r){
 
     if(p<r){
         int q = (p+r) / 2;
 
-        Sortowania::Mergesort(p, q);
-        Sortowania::Mergesort(q+1, r);
+        MergeSort::sort(p, q);
+        MergeSort::sort(q+1, r);
 
         // scalenie:
         int n1 = q-p+1, n2 = r-q;
@@ -59,14 +59,14 @@ void Sortowania::Mergesort(int p, int r){
     }
 }
 
-void Sortowania::print() {
+void MergeSort::print() {
 
     for(int i=0;i<n;i++)
         std::cout << arr[i] << " ";
     std::cout << std::endl;
 }
 
-bool Sortowania::verification() {
+bool MergeSort::verification() {
 
     for(int i=0;i<n-1;i++){
 
@@ -77,7 +77,7 @@ bool Sortowania::verification() {
     return true;
 }
 
-void Sortowania::fill(){
+void MergeSort::fill(){
 
     n = 15; // len(arr) = 15
 
@@ -86,7 +86,7 @@ void Sortowania::fill(){
 }
 
 
-void Sortowania::test() {
+void MergeSort::test() {
 
     if(verification())
         std::cout << "TEST ZALICZONY POMYSLNIE" << std::endl;
@@ -94,7 +94,7 @@ void Sortowania::test() {
         std::cout << "TEST NIEZALICZONY!" << std::endl;
 }
 
-Sortowania::~Sortowania() {
+MergeSort::~MergeSort() {
 
     delete arr;
 }

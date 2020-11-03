@@ -13,7 +13,7 @@ Kopiec::Kopiec() { // random elements ( rand() )
 
 void Kopiec::buildHeap(){
 
-    for(int i=n/2; i>=0; i--){
+    for(int i=n/2; i>=0; i--){ // lub: int i=(size>>1)
         heapify(n, i);
     }
 }

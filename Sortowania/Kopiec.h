@@ -10,7 +10,7 @@ class Kopiec {
 
 public:
 
-    int *arr = new int[0];
+    int *arr = new int[15];
     int n = 15;
 
     void heapify(int n1, int i);

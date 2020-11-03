@@ -7,15 +7,16 @@ int main() {
 
     srand(time(NULL));
 
-    Sortowania arr = Sortowania();
-    Sortowania arr2 = Sortowania();
-    Sortowania arr3 = Sortowania();
+    int size = 15;
+    Sortowania arr = Sortowania(size);
+    Sortowania arr2 = Sortowania(size);
+    Sortowania arr3 = Sortowania(size);
     Kopiec k1 = Kopiec();
 
-    for(int i=0; i<arr.n;i++){
-        arr2.arr[i] = arr.arr[i];
-        arr3.arr[i] = arr.arr[i];
-    }
+    arr.n = size;
+    arr2.n = size;
+    arr3.n = size;
+
 
     // heapSort
     k1.arr = arr.arr;

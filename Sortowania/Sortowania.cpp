@@ -6,9 +6,10 @@
 #include "Kopiec.h"
 #include <iostream>
 
-Sortowania::Sortowania() { // random elements ( rand() )
+Sortowania::Sortowania(int n) { // random elements ( rand() )
 
-    fill();
+    arr = new int[n];
+    fill(n);
 }
 
 void Sortowania::insertionSort() {
@@ -106,9 +107,9 @@ bool Sortowania::verification() {
     return true;
 }
 
-void Sortowania::fill(){
+void Sortowania::fill(int n1=15){
 
-    n = 15;  // len(arr) = 15
+    n = n1;  // len(arr) = 15
 
     for(int i=0;i<n;i++)
         arr[i] = rand()%100 + 1;   // each element in the range 1 to 1000

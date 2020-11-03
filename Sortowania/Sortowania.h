@@ -10,15 +10,15 @@ class Sortowania {
 
 public:
 
-    int *arr = new int[0];
     int n = 0;
+    int *arr;
 
-    Sortowania();
+    Sortowania(int n);
     void mergeSort(int q, int w);
     void heapSort(Kopiec f);
     void insertionSort();
     void print();
-    void fill();
+    void fill(int n);
     void test();
     bool verification();
     ~Sortowania();

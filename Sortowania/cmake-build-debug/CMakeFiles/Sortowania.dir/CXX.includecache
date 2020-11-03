@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/wojciechszlosek/Desktop/ASD/Sortowania/Kopiec.h
+
+/Users/wojciechszlosek/Desktop/ASD/Sortowania/Sortowania.h
+Kopiec.h
+/Users/wojciechszlosek/Desktop/ASD/Sortowania/Kopiec.h
+
+/Users/wojciechszlosek/Desktop/ASD/Sortowania/main.cpp
+iostream
+-
+Sortowania.h
+/Users/wojciechszlosek/Desktop/ASD/Sortowania/Sortowania.h
+Kopiec.h
+/Users/wojciechszlosek/Desktop/ASD/Sortowania/Kopiec.h
+algorithm
+-
+

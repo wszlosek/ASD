@@ -1,0 +1,3 @@
+/Users/wojciechszlosek/Desktop/ASD/Sortowania/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/wojciechszlosek/Desktop/ASD/Sortowania/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/wojciechszlosek/Desktop/ASD/Sortowania/cmake-build-debug/CMakeFiles/Sortowania.dir

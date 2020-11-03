@@ -6,14 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/Users/wojciechszlosek/Desktop/ASD/MergeSort/MergeSort.cpp
-MergeSort.h
-/Users/wojciechszlosek/Desktop/ASD/MergeSort/MergeSort.h
-iostream
--
-cstdlib
--
-
 /Users/wojciechszlosek/Desktop/ASD/MergeSort/MergeSort.h
 
 /Users/wojciechszlosek/Desktop/ASD/MergeSort/main.cpp

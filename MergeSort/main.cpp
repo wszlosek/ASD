@@ -12,7 +12,7 @@ int main() {
     // merge sort
     q.sort(0,q.n-1);
 
-    // print and test (again)
+    // print and test
     q.print();
     q.test();
 

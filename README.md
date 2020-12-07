@@ -1,3 +1,3 @@
 # ASD
 
-Homework from the course "Algorithms and data structures" at the JU.
+Homework from the course "Algorithms and data structures" at the UJ.

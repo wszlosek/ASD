@@ -1,47 +1,46 @@
-'''
-IDEA: Tablica pomocnicza ”pom” zawiera w sumie
-indeksy zbioru S, gdzie znajdują się elementy.
-Tablica pomocnicza ”pom” zawiera w sumie indeksy
-zbioru S, gdzie znajdują się elementy. n - wielkość
-'''
+class Struktura:
 
-pom = []
+    elements = []
+    S = []
+    n = 0
 
-def Search(i, S): # O(1): zwraca True jeśli znaleziono element, wpp. False
-    return S[i] == 1
+    def __init__(self, n):
+        for i in range(n):
+            self.elements.append(0)
+            self.S.append(0)
+            self.n = 0
 
-def Insert(i, S, n): # O(1)
-    n += 1
-    S[i] = 1
-    pom.append(i)
 
-    return n
+    def Insert(self, i): # O(1)
+        self.elements[i] = 1
+        self.n += 1
+        self.S[self.n] = i
 
-def Select(S, n): # O(1), usuwa element, przy okazji zmniejsza wielkość n
-    S[pom[n-1]] = 0
-    n -= 1
 
-    return n
+    def Search(self, i): # O(1)
+        return (self.elements[i] == 1)
 
-S = [0 for i in range(10)] # oczywiscie nieskończona (abstrakcyjna) struktura
-n = 0
 
-n = Insert(1, S, n)
-n = Insert(3, S, n)
-n = Insert(4, S, n)
-n = Insert(8, S, n)
-print(pom)
-print(S)
+    def Select(self): # O(1)
+        if self.n != 0:
+            self.n -= 1
+            self.elements[self.S[self.n]] = 0
 
-n = Select(S, n)
-print(pom)
-print(S)
+    def printAll(self):
+        print(self.elements)
+        print(self.S)
 
-n = Select(S, n)
-print(pom)
-print(S)
 
-if Search(1, S):
-    print('Znaleziono')
+S = Struktura(10)
+
+S.Insert(2)
+S.Insert(3)
+S.printAll()
+
+S.Select()
+S.printAll()
+
+if S.Search(3):
+    print("ZNALAZŁEM!")
 else:
-    print('Nie ma')
+    print("NIE ZNALAZŁEM!")

@@ -1,3 +1,5 @@
+# do poprawy
+
 class Struktura:
 
     n = 0
@@ -61,5 +63,6 @@ q.Push(6)
 q.Push(8)
 q.Push(9)
 q.Delete(5)
+q.Pop()
 q.Pop()
 print(q.arr)

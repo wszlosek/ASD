@@ -143,6 +143,87 @@ Sortowania/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sortowania.dir/build.make CMakeFiles/Sortowania.dir/build
 .PHONY : Sortowania/fast
 
+AVL.o: AVL.cpp.o
+
+.PHONY : AVL.o
+
+# target to build an object file
+AVL.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sortowania.dir/build.make CMakeFiles/Sortowania.dir/AVL.cpp.o
+.PHONY : AVL.cpp.o
+
+AVL.i: AVL.cpp.i
+
+.PHONY : AVL.i
+
+# target to preprocess a source file
+AVL.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sortowania.dir/build.make CMakeFiles/Sortowania.dir/AVL.cpp.i
+.PHONY : AVL.cpp.i
+
+AVL.s: AVL.cpp.s
+
+.PHONY : AVL.s
+
+# target to generate assembly for a file
+AVL.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sortowania.dir/build.make CMakeFiles/Sortowania.dir/AVL.cpp.s
+.PHONY : AVL.cpp.s
+
+BST.o: BST.cpp.o
+
+.PHONY : BST.o
+
+# target to build an object file
+BST.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sortowania.dir/build.make CMakeFiles/Sortowania.dir/BST.cpp.o
+.PHONY : BST.cpp.o
+
+BST.i: BST.cpp.i
+
+.PHONY : BST.i
+
+# target to preprocess a source file
+BST.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sortowania.dir/build.make CMakeFiles/Sortowania.dir/BST.cpp.i
+.PHONY : BST.cpp.i
+
+BST.s: BST.cpp.s
+
+.PHONY : BST.s
+
+# target to generate assembly for a file
+BST.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sortowania.dir/build.make CMakeFiles/Sortowania.dir/BST.cpp.s
+.PHONY : BST.cpp.s
+
+CzerwonoCzarne.o: CzerwonoCzarne.cpp.o
+
+.PHONY : CzerwonoCzarne.o
+
+# target to build an object file
+CzerwonoCzarne.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sortowania.dir/build.make CMakeFiles/Sortowania.dir/CzerwonoCzarne.cpp.o
+.PHONY : CzerwonoCzarne.cpp.o
+
+CzerwonoCzarne.i: CzerwonoCzarne.cpp.i
+
+.PHONY : CzerwonoCzarne.i
+
+# target to preprocess a source file
+CzerwonoCzarne.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sortowania.dir/build.make CMakeFiles/Sortowania.dir/CzerwonoCzarne.cpp.i
+.PHONY : CzerwonoCzarne.cpp.i
+
+CzerwonoCzarne.s: CzerwonoCzarne.cpp.s
+
+.PHONY : CzerwonoCzarne.s
+
+# target to generate assembly for a file
+CzerwonoCzarne.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sortowania.dir/build.make CMakeFiles/Sortowania.dir/CzerwonoCzarne.cpp.s
+.PHONY : CzerwonoCzarne.cpp.s
+
 Kopiec.o: Kopiec.cpp.o
 
 .PHONY : Kopiec.o
@@ -233,6 +314,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Sortowania"
+	@echo "... AVL.o"
+	@echo "... AVL.i"
+	@echo "... AVL.s"
+	@echo "... BST.o"
+	@echo "... BST.i"
+	@echo "... BST.s"
+	@echo "... CzerwonoCzarne.o"
+	@echo "... CzerwonoCzarne.i"
+	@echo "... CzerwonoCzarne.s"
 	@echo "... Kopiec.o"
 	@echo "... Kopiec.i"
 	@echo "... Kopiec.s"

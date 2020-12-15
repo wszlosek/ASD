@@ -1,4 +1,7 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Sortowania.dir/AVL.cpp.o"
+  "CMakeFiles/Sortowania.dir/BST.cpp.o"
+  "CMakeFiles/Sortowania.dir/CzerwonoCzarne.cpp.o"
   "CMakeFiles/Sortowania.dir/Kopiec.cpp.o"
   "CMakeFiles/Sortowania.dir/Sortowania.cpp.o"
   "CMakeFiles/Sortowania.dir/main.cpp.o"

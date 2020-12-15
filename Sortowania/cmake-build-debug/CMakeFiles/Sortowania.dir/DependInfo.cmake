@@ -4,6 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/wojciechszlosek/Desktop/ASD/Sortowania/AVL.cpp" "/Users/wojciechszlosek/Desktop/ASD/Sortowania/cmake-build-debug/CMakeFiles/Sortowania.dir/AVL.cpp.o"
+  "/Users/wojciechszlosek/Desktop/ASD/Sortowania/BST.cpp" "/Users/wojciechszlosek/Desktop/ASD/Sortowania/cmake-build-debug/CMakeFiles/Sortowania.dir/BST.cpp.o"
+  "/Users/wojciechszlosek/Desktop/ASD/Sortowania/CzerwonoCzarne.cpp" "/Users/wojciechszlosek/Desktop/ASD/Sortowania/cmake-build-debug/CMakeFiles/Sortowania.dir/CzerwonoCzarne.cpp.o"
   "/Users/wojciechszlosek/Desktop/ASD/Sortowania/Kopiec.cpp" "/Users/wojciechszlosek/Desktop/ASD/Sortowania/cmake-build-debug/CMakeFiles/Sortowania.dir/Kopiec.cpp.o"
   "/Users/wojciechszlosek/Desktop/ASD/Sortowania/Sortowania.cpp" "/Users/wojciechszlosek/Desktop/ASD/Sortowania/cmake-build-debug/CMakeFiles/Sortowania.dir/Sortowania.cpp.o"
   "/Users/wojciechszlosek/Desktop/ASD/Sortowania/main.cpp" "/Users/wojciechszlosek/Desktop/ASD/Sortowania/cmake-build-debug/CMakeFiles/Sortowania.dir/main.cpp.o"

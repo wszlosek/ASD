@@ -116,11 +116,53 @@ CMakeFiles/Sortowania.dir/Kopiec.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sortowania.dir/Kopiec.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wojciechszlosek/Desktop/ASD/Sortowania/Kopiec.cpp -o CMakeFiles/Sortowania.dir/Kopiec.cpp.s
 
+CMakeFiles/Sortowania.dir/BST.cpp.o: CMakeFiles/Sortowania.dir/flags.make
+CMakeFiles/Sortowania.dir/BST.cpp.o: ../BST.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wojciechszlosek/Desktop/ASD/Sortowania/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Sortowania.dir/BST.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Sortowania.dir/BST.cpp.o -c /Users/wojciechszlosek/Desktop/ASD/Sortowania/BST.cpp
+
+CMakeFiles/Sortowania.dir/BST.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sortowania.dir/BST.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wojciechszlosek/Desktop/ASD/Sortowania/BST.cpp > CMakeFiles/Sortowania.dir/BST.cpp.i
+
+CMakeFiles/Sortowania.dir/BST.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sortowania.dir/BST.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wojciechszlosek/Desktop/ASD/Sortowania/BST.cpp -o CMakeFiles/Sortowania.dir/BST.cpp.s
+
+CMakeFiles/Sortowania.dir/AVL.cpp.o: CMakeFiles/Sortowania.dir/flags.make
+CMakeFiles/Sortowania.dir/AVL.cpp.o: ../AVL.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wojciechszlosek/Desktop/ASD/Sortowania/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Sortowania.dir/AVL.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Sortowania.dir/AVL.cpp.o -c /Users/wojciechszlosek/Desktop/ASD/Sortowania/AVL.cpp
+
+CMakeFiles/Sortowania.dir/AVL.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sortowania.dir/AVL.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wojciechszlosek/Desktop/ASD/Sortowania/AVL.cpp > CMakeFiles/Sortowania.dir/AVL.cpp.i
+
+CMakeFiles/Sortowania.dir/AVL.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sortowania.dir/AVL.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wojciechszlosek/Desktop/ASD/Sortowania/AVL.cpp -o CMakeFiles/Sortowania.dir/AVL.cpp.s
+
+CMakeFiles/Sortowania.dir/CzerwonoCzarne.cpp.o: CMakeFiles/Sortowania.dir/flags.make
+CMakeFiles/Sortowania.dir/CzerwonoCzarne.cpp.o: ../CzerwonoCzarne.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wojciechszlosek/Desktop/ASD/Sortowania/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Sortowania.dir/CzerwonoCzarne.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Sortowania.dir/CzerwonoCzarne.cpp.o -c /Users/wojciechszlosek/Desktop/ASD/Sortowania/CzerwonoCzarne.cpp
+
+CMakeFiles/Sortowania.dir/CzerwonoCzarne.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sortowania.dir/CzerwonoCzarne.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wojciechszlosek/Desktop/ASD/Sortowania/CzerwonoCzarne.cpp > CMakeFiles/Sortowania.dir/CzerwonoCzarne.cpp.i
+
+CMakeFiles/Sortowania.dir/CzerwonoCzarne.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sortowania.dir/CzerwonoCzarne.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wojciechszlosek/Desktop/ASD/Sortowania/CzerwonoCzarne.cpp -o CMakeFiles/Sortowania.dir/CzerwonoCzarne.cpp.s
+
 # Object files for target Sortowania
 Sortowania_OBJECTS = \
 "CMakeFiles/Sortowania.dir/main.cpp.o" \
 "CMakeFiles/Sortowania.dir/Sortowania.cpp.o" \
-"CMakeFiles/Sortowania.dir/Kopiec.cpp.o"
+"CMakeFiles/Sortowania.dir/Kopiec.cpp.o" \
+"CMakeFiles/Sortowania.dir/BST.cpp.o" \
+"CMakeFiles/Sortowania.dir/AVL.cpp.o" \
+"CMakeFiles/Sortowania.dir/CzerwonoCzarne.cpp.o"
 
 # External object files for target Sortowania
 Sortowania_EXTERNAL_OBJECTS =
@@ -128,9 +170,12 @@ Sortowania_EXTERNAL_OBJECTS =
 Sortowania: CMakeFiles/Sortowania.dir/main.cpp.o
 Sortowania: CMakeFiles/Sortowania.dir/Sortowania.cpp.o
 Sortowania: CMakeFiles/Sortowania.dir/Kopiec.cpp.o
+Sortowania: CMakeFiles/Sortowania.dir/BST.cpp.o
+Sortowania: CMakeFiles/Sortowania.dir/AVL.cpp.o
+Sortowania: CMakeFiles/Sortowania.dir/CzerwonoCzarne.cpp.o
 Sortowania: CMakeFiles/Sortowania.dir/build.make
 Sortowania: CMakeFiles/Sortowania.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/wojciechszlosek/Desktop/ASD/Sortowania/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Sortowania"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/wojciechszlosek/Desktop/ASD/Sortowania/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Sortowania"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Sortowania.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

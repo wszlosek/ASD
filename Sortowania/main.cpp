@@ -1,9 +1,48 @@
 #include <iostream>
 #include "Sortowania.h"
 #include "Kopiec.h"
+#include "BST.h"
+#include "AVL.h"
+#include "CzerwonoCzarne.h"
 #include <algorithm>
 
 int main() {
+
+/*
+    BST bst = NULL;
+    BST* root = NULL;
+    root = bst.Insert(root,20);
+    bst.Insert(root,30);
+    bst.Insert(root,50);
+    bst.printInorder(root);
+    std::cout << std::endl;
+    bst.Delete(root,30);
+    bst.printInorder(root);
+
+
+
+    AVL *avl = NULL;
+    avl = avl->Insert(avl,10);
+    avl = avl->Insert(avl,50);
+    avl = avl->Insert(avl,80);
+    avl = avl->Delete(avl,50);
+    avl->printInorder(avl);
+
+*/
+
+    CzerwonoCzarne tr = NULL;
+    tr.Insert(2);
+    tr.Insert(5);
+    tr.Insert(9);
+    tr.Insert(10);
+    tr.Insert(13);
+    tr.Insert(11);
+
+    tr.Delete2(11);
+    tr.Inorder2();
+
+   /*
+    SORTOWANIA
 
     srand(time(NULL));
 
@@ -37,4 +76,7 @@ int main() {
     arr3.mergeSort(0,arr3.n-1);
     arr3.print();
     arr3.test();
+    */
+
+
 }

@@ -6,6 +6,16 @@
 
 #IncludeRegexTransform: 
 
+/Users/wojciechszlosek/Desktop/ASD/Sortowania/AVL.h
+iostream
+-
+
+/Users/wojciechszlosek/Desktop/ASD/Sortowania/BST.h
+
+/Users/wojciechszlosek/Desktop/ASD/Sortowania/CzerwonoCzarne.h
+BST.h
+/Users/wojciechszlosek/Desktop/ASD/Sortowania/BST.h
+
 /Users/wojciechszlosek/Desktop/ASD/Sortowania/Kopiec.h
 
 /Users/wojciechszlosek/Desktop/ASD/Sortowania/Sortowania.h
@@ -19,6 +29,12 @@ Sortowania.h
 /Users/wojciechszlosek/Desktop/ASD/Sortowania/Sortowania.h
 Kopiec.h
 /Users/wojciechszlosek/Desktop/ASD/Sortowania/Kopiec.h
+BST.h
+/Users/wojciechszlosek/Desktop/ASD/Sortowania/BST.h
+AVL.h
+/Users/wojciechszlosek/Desktop/ASD/Sortowania/AVL.h
+CzerwonoCzarne.h
+/Users/wojciechszlosek/Desktop/ASD/Sortowania/CzerwonoCzarne.h
 algorithm
 -
 

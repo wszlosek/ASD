@@ -80,6 +80,24 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/wojciechszlosek/Desktop/ASD/Sortowania/AVL.cpp">
+			<Option target="Sortowania"/>
+		</Unit>
+		<Unit filename="/Users/wojciechszlosek/Desktop/ASD/Sortowania/AVL.h">
+			<Option target="Sortowania"/>
+		</Unit>
+		<Unit filename="/Users/wojciechszlosek/Desktop/ASD/Sortowania/BST.cpp">
+			<Option target="Sortowania"/>
+		</Unit>
+		<Unit filename="/Users/wojciechszlosek/Desktop/ASD/Sortowania/BST.h">
+			<Option target="Sortowania"/>
+		</Unit>
+		<Unit filename="/Users/wojciechszlosek/Desktop/ASD/Sortowania/CzerwonoCzarne.cpp">
+			<Option target="Sortowania"/>
+		</Unit>
+		<Unit filename="/Users/wojciechszlosek/Desktop/ASD/Sortowania/CzerwonoCzarne.h">
+			<Option target="Sortowania"/>
+		</Unit>
 		<Unit filename="/Users/wojciechszlosek/Desktop/ASD/Sortowania/Kopiec.cpp">
 			<Option target="Sortowania"/>
 		</Unit>

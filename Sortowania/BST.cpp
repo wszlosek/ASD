@@ -39,37 +39,34 @@ BST* BST::Delete(BST* root, int n) {
     if(root == NULL)
         return root;
 
-    if(n < root->data)
+    else if(n < root->data)
         root->l = Delete(root->l, n);
     else if(n > root->data)
         root->r = Delete(root->r, n);
 
+    else if(root->l != NULL && root->r != NULL){
+
+        BST* temp = root;
+        while (temp->l != NULL)
+            temp = temp->l;
+        root->data = temp->data;
+        root->r = Delete(root->r, root->data);
+    }
+
     else{
 
-        if(root->l == NULL){
+        BST* temp = root;
+        if (temp->l == NULL)
+            root = root->r;
+        else if(temp->r == NULL)
+            root = root->l;
 
-            BST* k = root->r;
-            free(root);
-            return k;
-        }
-
-        else if(root->l == NULL){
-
-            BST* k = root->l;
-            free(root);
-            return k;
-        }
-
-        else{
-
-            BST* w = minNode(root->r);
-            root->data = w->data;
-            root->r = Delete(root->r, w->data);
-        }
+        delete temp;
     }
 
     return root;
 }
+
 
 BST* BST::Search(BST* root, int n) {
 

@@ -125,4 +125,6 @@ void Sortowania::test() {
 }
 
 Sortowania::~Sortowania() {
+    
+    delete arr;
 }

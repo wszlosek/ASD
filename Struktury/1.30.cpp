@@ -69,7 +69,7 @@ public:
         }
         std::cout << std::endl;
     }
-}
+};
 
 int main() {
 

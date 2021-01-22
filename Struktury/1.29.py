@@ -1,5 +1,3 @@
-# do poprawy
-
 class Struktura:
 
     n = 0
@@ -21,20 +19,7 @@ class Struktura:
 
 
     def Pop(self):
-        x = self.arr[0]
-
-        index = self.hashd.get(x, None)
-        if index == None: # pusta
-            return
-
-        del self.hashd[x]
-
-        last = self.arr[self.n-1]
-        self.arr[index], self.arr[self.n-1] = self.arr[self.n-1], self.arr[index] # swap
-
-        del self.arr[-1]
-        self.hashd[last] = index
-        self.n -= 1
+        self.Delete(self.arr[self.n-1])
 
 
     def Delete(self, x):
@@ -57,12 +42,22 @@ class Struktura:
         return self.hashd.get(x, None)
 
 
+    def Print(self):
+        self.arr = self.arr[::-1]
+        print(self.arr)
+        self.arr = self.arr[::-1]
+
+
 q = Struktura()
-q.Push(5)
-q.Push(6)
 q.Push(8)
-q.Push(9)
-q.Delete(5)
+q.Push(7)
+q.Push(6)
+q.Push(5)
+
+q.Print()
 q.Pop()
+q.Print()
 q.Pop()
-print(q.arr)
+q.Print()
+q.Pop()
+q.Print()
